@@ -1,0 +1,50 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    backports (3.21.0)
+    bcrypt (3.1.16)
+    coderay (1.1.3)
+    erubis (2.7.0)
+    method_source (1.0.0)
+    minitest (5.14.4)
+    multi_json (1.15.0)
+    pry (0.14.1)
+      coderay (~> 1.1)
+      method_source (~> 1.0)
+    rack (1.6.13)
+    rack-protection (1.5.5)
+      rack
+    rack-test (1.1.0)
+      rack (>= 1.0, < 3)
+    redcarpet (3.5.1)
+    sinatra (1.4.8)
+      rack (~> 1.5)
+      rack-protection (~> 1.4)
+      tilt (>= 1.3, < 3)
+    sinatra-contrib (1.4.7)
+      backports (>= 2.0)
+      multi_json
+      rack-protection
+      rack-test
+      sinatra (~> 1.4.0)
+      tilt (>= 1.3, < 3)
+    tilt (2.0.10)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bcrypt
+  erubis
+  minitest
+  pry
+  rack-test
+  redcarpet
+  sinatra (~> 1.4.7)
+  sinatra-contrib
+
+RUBY VERSION
+   ruby 2.6.8p205
+
+BUNDLED WITH
+   1.17.3
